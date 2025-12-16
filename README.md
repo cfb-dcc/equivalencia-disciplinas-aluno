@@ -24,19 +24,15 @@ O objetivo é substituir a busca manual em documentos e planilhas complexas por 
 
 O fluxo de trabalho é dividido em etapas claras na própria interface:
 
-1.  **Carregue a Planilha de Regras:**
-    -   Na seção "1. Faça o Upload da Planilha de Equivalências", clique em "Procurar arquivos".
-    -   Selecione a planilha (`.xlsx` ou `.csv`) que contém a base de dados com as regras. A aplicação irá carregá-la e prepará-la para a consulta.
-
-2.  **Selecione a Universidade e Insira os Códigos:**
+1.  **Selecione a Universidade e Insira os Códigos:**
     -   Na seção "2. Selecione a Universidade e Insira os Códigos", escolha a **Universidade de Origem** na lista suspensa.
     -   No campo de texto ao lado, digite ou cole os **códigos das disciplinas** que deseja analisar. Você pode separá-los por espaço, vírgula ou quebra de linha.
 
-3.  **Analise e Veja o Resultado:**
+2.  **Analise e Veja o Resultado:**
     -   Clique no botão **"Analisar Equivalências"**.
     -   O sistema buscará as correspondências na planilha e exibirá os resultados logo abaixo.
 
-4.  **Baixe o Relatório em PDF:**
+3.  **Baixe o Relatório em PDF:**
     -   Se todas as disciplinas inseridas forem encontradas, um botão **"Baixar Relatório em PDF"** aparecerá.
     -   Clique nele para salvar um documento formal com os resultados da sua consulta.
 
