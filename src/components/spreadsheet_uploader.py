@@ -130,8 +130,9 @@ def load_data_from_url() -> Tuple[Optional[str], Optional[Dict[str, DataFrame]]]
     """
     load_dotenv()
     
-    sheet_url = "https://docs.google.com/spreadsheets/d/1yufbWjSMgxlgwH7k_M3x5KKv8vk1G4lKzxw5oIpO-1A/export?format=xlsx"
-
+    
+    sheet_url = os.getenv("PUBLIC_EXCEL_URL")
+    
     if not sheet_url:
         msg = "Configuração incompleta: 'PUBLIC_EXCEL_URL' não está definida no seu arquivo .env."
         return msg, None
