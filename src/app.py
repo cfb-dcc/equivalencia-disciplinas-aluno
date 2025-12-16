@@ -120,16 +120,16 @@ def main():
         if not has_not_found:
             st.success("Todas as disciplinas foram encontradas! Você já pode gerar o relatório.")
         
-        #     st.subheader("3. Gerar Relatório")
+            st.subheader("2. Gerar Relatório")
 
-        #     pdf_bytes = create_pdf_bytes(st.session_state.analysis_results)
-        #     st.download_button(
-        #         label="Baixar Relatório em PDF",
-        #         data=pdf_bytes,
-        #         file_name="relatorio_equivalencia.pdf",
-        #         mime="application/pdf",
-        #         use_container_width=True
-        #     )
+            pdf_bytes = create_pdf_bytes(st.session_state.analysis_results)
+            st.download_button(
+                label="Baixar Relatório em PDF",
+                data=pdf_bytes,
+                file_name="relatorio_equivalencia.pdf",
+                mime="application/pdf",
+                use_container_width=True
+            )
 
         else:
             st.error("⚠️ **Atenção:** Algumas disciplinas não foram encontradas na planilha.")
